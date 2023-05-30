@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Products</title>
+</head>
+<body>
+  <h1>Products</h1>
+  <ul>
+    <% products.forEach(function(product) { %>
+      <li>Product ID: <%= product.id %>, Title: <%= product.title %></li>
+    <% }); %>
+  </ul>
+</body>
+</html>

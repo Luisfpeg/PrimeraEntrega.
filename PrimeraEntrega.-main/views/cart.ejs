@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cart</title>
+</head>
+<body>
+  <h1>Cart</h1>
+  <ul>
+    <% cart.items.forEach(function(item) { %>
+      <li>Product ID: <%= item.productId %>, Quantity: <%= item.quantity %></li>
+    <% }); %>
+  </ul>
+</body>
+</html>
